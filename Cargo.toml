@@ -1,0 +1,15 @@
+[package]
+name = "tnwr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.30"
+wgpu = "30.0"
+glyphon = "0.12"
+pollster = "0.4"
+bytemuck = { version = "1", features = ["derive"] }
+drm = "0.15"
+
+[profile.dev]
+opt-level = 1
